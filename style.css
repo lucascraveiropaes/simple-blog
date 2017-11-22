@@ -145,6 +145,40 @@ nav ul.menu-links li a:hover {
 	color: #000;
 }
 
+nav ul.menu-links li form {
+	padding: 0px;
+	margin-top: -7px;
+}
+
+nav ul.menu-links li form .input-group input {
+	border-radius: 0px;
+	border-right: none;
+	-webkit-box-shadow: none;
+    box-shadow: none;
+    width: 30px !important;
+
+
+	-webkit-transition: .2s ease-in-out;
+	-moz-transition: .2s ease-in-out;
+	-o-transition: .2s ease-in-out;
+	transition: .2s ease-in-out;
+}
+nav ul.menu-links li form .input-group input:focus {
+    width: 180px !important;
+    border-color: rgba(0,0,0,0.2);
+}
+nav ul.menu-links li form .input-group-btn button {
+	border-radius: 0px;
+	border-left: none;
+
+	-webkit-box-shadow: none;
+    box-shadow: none;
+    padding: 4px;
+
+    background-color: #fff;
+    font-size: 0.2em;
+}
+
 @media(max-width: 768px) {
 	nav.sidebar {
 		background-color: #efefef;
